@@ -1,0 +1,12 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tauri-example = { path = "tauri-example/src-tauri" }
+
+[workspace]
+members = [
+    "tauri-example/src-tauri"
+]
