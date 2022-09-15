@@ -57,6 +57,7 @@ checksum = "98161a4e3e2184da77bb14f02184cdd111e83bbbcc9979dfee3c44b9a85f5602"
 name = "app"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "tauri-example",
 ]
 
@@ -2800,6 +2801,7 @@ dependencies = [
 name = "tauri-example"
 version = "0.0.1"
 dependencies = [
+ "anyhow",
  "serde",
  "serde_json",
  "tauri",
