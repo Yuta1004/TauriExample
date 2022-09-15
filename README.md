@@ -21,5 +21,10 @@ $ make build BUILD_OPTIONS="--release"
 ### 実行
 
 ```
-$ make run
+(初回 or tauri-example更新時)
+$ make -C tauri-example
+$ cargo run
+
+(その他)
+$ cargo run
 ```
