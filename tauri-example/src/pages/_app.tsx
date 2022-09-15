@@ -4,5 +4,5 @@ import "../style.css";
 import "../App.css";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-	return <Component {...pageProps} />;
+    return <Component {...pageProps} />;
 }
